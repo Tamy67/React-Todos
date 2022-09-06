@@ -14,6 +14,9 @@
 .item-text {
   display: inline-block;
   cursor: pointer;
+}
+
+.item-text::first-letter {
   text-transform: capitalize;
 }
 
@@ -30,6 +33,7 @@
   outline: none;
   background: transparent;
 }
+
 
 .addTask {
   padding: 16px 7px;
